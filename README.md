@@ -1,6 +1,9 @@
 # korean-nli-datasets
 Collection of Korean NLI Datasets
 
+1. [KorNLI](https://github.com/kakaobrain/KorNLUDatasets)
+2. [KLUE-NLI](https://github.com/KLUE-benchmark/KLUE)
+
 # References
 ```bibtex
 @article{ham2020kornli,
