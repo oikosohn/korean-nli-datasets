@@ -2,6 +2,7 @@
 
 데이콘의 [한국어 문장 관계 분류 경진대회 대회](https://dacon.io/competitions/official/235875/overview/description)를 참여하면서 NLI 데이터셋 특징을 정리하고 이용 상 불편함을 해결하고자 리포지토리 생성
 
+
 ## [KorNLI](https://github.com/kakaobrain/KorNLUDatasets)
 변경사항
 - 탭 구분자가 인식되지 않는 문제가 있음. SNLI, XNLI에서 구분되지 않는 행을엑셀로 값을 수정함
@@ -17,9 +18,15 @@
 - json 파일을 단순히 CSV 파일로 변경
 
 데이터셋 특징
-- KLUE-NLI
+- KLUE-NLI : 
 
-# References
+
+## License
+[Creative Commons Attribution-ShareAlike license (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
+- License for KorNLI and KLUE NLI datasets
+
+
+## References
 ```bibtex
 @article{ham2020kornli,
   title={KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding},
