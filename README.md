@@ -6,7 +6,7 @@
 ## [KorNLI](https://github.com/kakaobrain/KorNLUDatasets)
 ### 변경사항
 - [탭 구분자가 인식되지 않는 문제](https://github.com/kakaobrain/KorNLUDatasets/issues/4)가 있음. SNLI, XNLI에서 구분되지 않는 행을 엑셀로 값을 수정하였습니다.
-- MNLI는 탭 구분이 인식되지 않는 행이 매우 많아서 수정하지 않고 업로드하지도 않았습니다.. 원본 저장소의 데이터를 이용할 때 pandas의 read_csv의 skiprows를 사용해야 합니다.
+- MNLI는 탭 구분이 인식되지 않는 행이 매우 많아서 수정하지 않고 업로드하지도 않았습니다. 원본 저장소의 데이터를 이용할 때 pandas의 read_csv의 skiprows를 사용해야 합니다.
 
 
 ### 데이터셋 특징
@@ -32,7 +32,7 @@
 - 데이터 출처 : 네이버 영화 리뷰(NSMC), 에어비앤비 리뷰(airbnb), 위키트리(wikitree), 정책 뉴스 브리핑 자료(policy), 위키뉴스(wikinews), 위키피디아(wikipedia) 
   - train 구성 : 24998 문장
     | 출처 |  문장 개수 | 비율 |
-    | --- | --- | --- |
+    | --- | ---: | ---: |
     | 네이버 영화 리뷰(NSMC) | 4899 | 0.196 |
     | 에어비앤비 리뷰(airbnb) | 4824 | 0.193 | 
     | 위키트리(wikitree) | 3838 | 0.153 | 
@@ -41,7 +41,7 @@
     | 위키피디아(wikipedia) | 3780| 0.151 |
   - dev 구성 : 3000 문장
     | 출처 |  문장 개수 | 비율 |
-    | --- | --- | --- |
+    | --- | ---: | ---: |
     | 네이버 영화 리뷰(NSMC) | 600 | 0.20 |
     | 에어비앤비 리뷰(airbnb) | 600 | 0.20 | 
     | 위키트리(wikitree) | 450 | 0.15 | 
