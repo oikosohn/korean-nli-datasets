@@ -1,6 +1,6 @@
 # Korean-NLI-Datasets
 
-데이콘의 [한국어 문장 관계 분류 경진대회 대회](https://dacon.io/competitions/official/235875/overview/description)를 참여하면서 한국어 NLI 데이터셋 특징을 정리하고 이용 상 불편함을 해결하고자 저장소 생성
+데이콘의 [한국어 문장 관계 분류 경진대회 대회](https://dacon.io/competitions/official/235875/overview/description)를 참여하면서 확인한 한국어 NLI 데이터셋 특징을 정리하고 이용 상 불편함을 해결하고자 저장소 생성
 
 
 ## [KorNLI](https://github.com/kakaobrain/KorNLUDatasets)
