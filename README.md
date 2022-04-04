@@ -1,13 +1,19 @@
-# korean-nli-datasets
+# Korean-NLI-Datasets
 
 데이콘의 [한국어 문장 관계 분류 경진대회 대회](https://dacon.io/competitions/official/235875/overview/description)를 참여하면서 한국어 NLI 데이터셋 특징을 정리하고 이용 상 불편함을 해결하고자 저장소 생성
+
 
 ## [KorNLI](https://github.com/kakaobrain/KorNLUDatasets)
 ### 변경사항
 - [탭 구분자가 인식되지 않는 문제](https://github.com/kakaobrain/KorNLUDatasets/issues/4)가 있음. SNLI, XNLI에서 구분되지 않는 행을 엑셀로 값을 수정함
-
 - MNLI는 탭 구분이 인식되지 않는 행이 매우 많아서 보류
 
+
+### 데이터셋 특징
+
+기계번역을 거쳤기 때문에 한국어에서 자주 쓰이지 않는 관사(`그`), 지시사(`이것`, `저것`, `그것` 등)가 많음
+
+데이터셋의 전제(premise, sentence1) 문장의 인명이 한글로 번역되어있는 반면에 가설(hypothesis, sentence2) 문장은 영어로 표기되어 있는 경우 있음
 
 <!---
   | | 예시 문장 | 변경된 예시 문장 |
@@ -17,25 +23,19 @@
 
 --->
 
-### 데이터셋 특징
-
-기계번역을 거쳤기 때문에 한국어에서 자주 쓰이지 않는 관사(`그`), 지시사(`이것`, `저것`, `그것` 등)가 많음
-
-데이터셋의 전제(premise, sentence1) 문장의 인명이 한글로 번역되어있는 반면에 가설(hypothesis, sentence2) 문장은 영어로 표기되어 있는 경우 있음
-
 - MNLI : 기계 번역으로 △ 제대로 번역되지 않고 △ 정제되지 않은 값(`n/a`, `의성어`, `의태어`)이 많음
-
 - SNLI : 
-
 - XNLI : 기계 번역 후 전문 번역가가 편집
+
 
 
 ## [KLUE-NLI](https://github.com/KLUE-benchmark/KLUE)
 ### 변경사항
-- json 파일을 단순히 CSV 파일로 변경
+- 엑셀 상에서 확인하기 위해서 json 파일을 단순히 CSV 파일로 변경
+
 
 ### 데이터셋 특징
-- KLUE-NLI : KorNLI에 비해 상대적으로 잘 정제되어있음. 데이터 출처는 
+- KLUE-NLI : 데이터 출처는 
 
 
 ## License
