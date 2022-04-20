@@ -1,11 +1,9 @@
 # 한국어 NLI 데이터셋 모음 (Korean NLI Datasets)
 
-데이콘의 [한국어 문장 관계 분류 경진대회 대회](https://dacon.io/competitions/official/235875/overview/description)를 참여하면서 확인한 한국어 NLI 데이터셋 특징을 정리하였습니다. 또 데이터셋을 이용하면서 겪은 불편함을 해결하고자 저장소를 생성하였습니다. 
+데이콘의 [한국어 문장 관계 분류 경진대회 대회](https://dacon.io/competitions/official/235875/overview/description)를 참여하면서 확인한 한국어 NLI 데이터셋 특징을 정리하였습니다. 또 데이터셋을 이용하면서 겪은 불편함을 해결하고자 저장소를 생성하였습니다. 엑셀에서 KorNLI, KLUE 데이터셋의 값을 확인하려면 UTF-8로 로드해야합니다.
 
 
 ## [KorNLI](https://github.com/kakaobrain/KorNLUDatasets)
-
-엑셀에서 KorNLI 데이터셋의 값을 확인하려면 UTF-8로 로드해야합니다.
 
 ### 변경사항
 - [탭 구분자가 인식되지 않는 문제](https://github.com/kakaobrain/KorNLUDatasets/issues/4)가 있음. SNLI, XNLI에서 구분되지 않는 행을 엑셀로 값을 수정하였습니다.
