@@ -58,19 +58,18 @@
 
 
 
-## License
-License for KorNLI and KLUE NLI datasets
-- [Creative Commons Attribution-ShareAlike license (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
+## Licenses
+All dataset are licensed under [Creative Commons Attribution-ShareAlike license (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/) License.
 
 
 
 ## References
 ```bibtex
 @article{ham2020kornli,
-  title={KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding},
-  author={Ham, Jiyeon and Choe, Yo Joong and Park, Kyubyong and Choi, Ilji and Soh, Hyungjoon},
-  journal={arXiv preprint arXiv:2004.03289},
-  year={2020}
+         title={KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding},
+         author={Ham, Jiyeon and Choe, Yo Joong and Park, Kyubyong and Choi, Ilji and Soh, Hyungjoon},
+         journal={arXiv preprint arXiv:2004.03289},
+         year={2020}
 }
 
 @misc{park2021klue,
